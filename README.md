@@ -85,27 +85,41 @@ LMOT dataset is organized in the form of [MOT Challenge 17](https://motchallenge
 
 ```
 └── LMOT_release/
-    ├── train/
-        ├── LMOT-02/
-            ├── gt/
-            ├── img_dark/
-            ├── img_light/
-            ├── img_dark_rgb/
-            ├── img_light_rgb/
+    ├── train
+        ├── LMOT-02
+            ├── gt
+                └── gt.txt
+            ├── img_dark
+                ├── 000001.tiff
+                └──  ... 
+            ├── img_light
+                ├── 000001.tiff
+                └──  ... 
+            ├── img_dark_rgb
+                ├── 000001.jpg
+                └──  ... 
+            ├── img_light_rgb
+                ├── 000001.jpg
+                └──  ... 
             └── seqinfo.ini
-        ├── LMOT-04/
+        ├── LMOT-04
         └── ...
-    ├── val/
+    ├── val
         └── ...
-    ├── test/
+    ├── test
         └── ...
-    └── real/
-        ├── RLMOT-01/
-            ├── gt/
-            ├── img_real/
-            ├── img_real_rgb/
+    └── real
+        ├── RLMOT-01
+            ├── gt
+                └── gt.txt
+            ├── img_real
+                ├── 000001.tiff
+                    ... 
+            ├── img_real_rgb
+                ├── 000001.jpg
+                    ... 
             └── seqinfo.ini
-        ├── RLMOT-02/
+        ├── RLMOT-02
         └── ...
 
 ```
@@ -122,9 +136,7 @@ LMOT dataset is organized in the form of [MOT Challenge 17](https://motchallenge
 
 
 
-<!-- ## Acknowledgement
- -->
-
+<!-- ## Acknowledgement -->
 
 
 
