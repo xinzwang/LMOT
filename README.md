@@ -138,10 +138,6 @@ The 6 categories of annotated objects include
 ```
 
 
-
-<!-- #### Evaluation -->
-
-
 ## People
 
 In addition to the authors of the paper, some friends also helped with data collection and annotation, they are [Li Yichen](https://github.com/yumu-173), [Wang Binfeng](wbf_bit@163.com), Wang Haoyu, [Wang Yuran](https://github.com/laowang404), [Zhang Taoying](https://github.com/TaoYing-Zhang), and [Wang Jianan](https://github.com/whiteknight-WJN). We sincerely thank them for their contributions to this work. 
@@ -153,8 +149,6 @@ In addition to the authors of the paper, some friends also helped with data coll
 * LMOT dataset is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 * LMOT dataset is available for non-commercial research purposes only.
 * The code of this repository is released under the MIT License.
-
-
 
 
 
@@ -171,3 +165,5 @@ If you our dataset or code for research, please cite our paper:
 ```
 
 
+## Contact
+If you have any question about our dataset, please email to [wangxinzhe@bit.edu.cn](wangxinzhe@bit.edu.cn).
