@@ -10,9 +10,8 @@ The official repo of the CVPR 2024 paper [Multi-Object Tracking in the Dark](htt
 <!-- * [TODO] code release
 * [TODO] codalab test
 * [TODO] pull request TrackEval -->
-* [TODO] Testing website is under development.
-* [TODO] We are checking the privacy issues of our dataset
-
+<!-- * [TODO] Testing website is under development. -->
+* [2024-06] 🔥 LMOT Dataset are available now ! 
 
 
 ## Abstract
@@ -79,11 +78,16 @@ Detailed statics and data splits for LMOT dataset
 
 
 
-### How to use
+### Download
 
-LMOT dataset is organized in the form of [MOT Challenge 17](https://motchallenge.net)
+LMOT dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1OHojTQSTdDaybuflYGwaMw) (code:xedx). 
+
+***Note:** Currently, we only release the training set and validation set. Test set and the remaining part will be released later along with the challenges*
+
+Organize the files into the following structure.
 
 ```
+{LMOT ROOT}
 └── LMOT_release/
     ├── train
         ├── LMOT-02
@@ -92,14 +96,14 @@ LMOT dataset is organized in the form of [MOT Challenge 17](https://motchallenge
             ├── img_dark
                 ├── 000001.tiff
                 └──  ... 
-            ├── img_light
-                ├── 000001.tiff
-                └──  ... 
             ├── img_dark_rgb
-                ├── 000001.jpg
+                ├── 000001.tiff
                 └──  ... 
             ├── img_light_rgb
                 ├── 000001.jpg
+                └──  ... 
+            ├── img_light
+                ├── 000001.tiff
                 └──  ... 
             └── seqinfo.ini
         ├── LMOT-04
@@ -119,25 +123,36 @@ LMOT dataset is organized in the form of [MOT Challenge 17](https://motchallenge
                 ├── 000001.jpg
                     ... 
             └── seqinfo.ini
-        ├── RLMOT-02
         └── ...
-
 ```
 
-<!-- #### Download
+LMOT dataset is organized in the form of [MOT Challenge 17](https://motchallenge.net). Each line in gt.txt contains
 
-1. RAW videos: [lmot_train_light_raw.zip](), [LMOT_dual_dark_raw.zip]()
-2. RGB videos: [LMOT_dual_light_rgb.zip](), [LMOT_dual_dark_rgb.zip]() -->
+```
+fn, id, classid, x1, y1, w, h, c=-1, c=-1, vis_ratio, c=-1
+```
+
+The 6 categories of annotated objects include
+```
+'person', 'bicycle', 'car', 'motorcycle', 'bus', 'truck'
+```
 
 
 
 <!-- #### Evaluation -->
 
 
+## People
+
+In addition to the authors of the paper, some of my friends also helped with data collection and annotation, they are [Li Yichen](https://github.com/yumu-173), [Wang Binfeng](wbf_bit@163.com), [Wang Haoyu](), [Wang Yuran](https://github.com/laowang404), [Zhang Taoying](https://github.com/TaoYing-Zhang), and [Wang Jianan](https://github.com/whiteknight-WJN). We sincerely thank them for their contributions to this work. 
 
 
-<!-- ## Acknowledgement -->
 
+## Agreement
+
+* LMOT dataset is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+* LMOT dataset is available for non-commercial research purposes only.
+* The code of this repository is released under the MIT License.
 
 
 
@@ -146,11 +161,13 @@ LMOT dataset is organized in the form of [MOT Challenge 17](https://motchallenge
 ## Citation
 If you our dataset or code for research, please cite our paper:
 ```
-@inproceedings{wang2024multi,
-  title={Multi-Object Tracking in the Dark},
-  author={Wang, Xinzhe and Ma, Kang and Liu, Qiankun and Zou, Yunhao and Fu, Ying},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2024}
+@InProceedings{Wang_2024_CVPR,
+    author    = {Wang, Xinzhe and Ma, Kang and Liu, Qiankun and Zou, Yunhao and Fu, Ying},
+    title     = {Multi-Object Tracking in the Dark},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {382-392}
 }
 ```
 
