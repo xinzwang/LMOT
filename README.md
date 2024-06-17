@@ -82,7 +82,7 @@ Detailed statics and data splits for LMOT dataset
 
 LMOT dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1OHojTQSTdDaybuflYGwaMw) (code:xedx). 
 
-***Note:** Currently, we only release the training set and validation set. Test set and the remaining part will be released later along with the challenges*
+***Note:** Currently, we only release the training set and validation set. Test set and the remaining part will be released later along with the challenges.*
 
 Organize the files into the following structure.
 
@@ -144,7 +144,7 @@ The 6 categories of annotated objects include
 
 ## People
 
-In addition to the authors of the paper, some of my friends also helped with data collection and annotation, they are [Li Yichen](https://github.com/yumu-173), [Wang Binfeng](wbf_bit@163.com), [Wang Haoyu](), [Wang Yuran](https://github.com/laowang404), [Zhang Taoying](https://github.com/TaoYing-Zhang), and [Wang Jianan](https://github.com/whiteknight-WJN). We sincerely thank them for their contributions to this work. 
+In addition to the authors of the paper, some of my friends also helped with data collection and annotation, they are [Li Yichen](https://github.com/yumu-173), [Wang Binfeng](wbf_bit@163.com), Wang Haoyu, [Wang Yuran](https://github.com/laowang404), [Zhang Taoying](https://github.com/TaoYing-Zhang), and [Wang Jianan](https://github.com/whiteknight-WJN). We sincerely thank them for their contributions to this work. 
 
 
 
@@ -161,11 +161,10 @@ In addition to the authors of the paper, some of my friends also helped with dat
 ## Citation
 If you our dataset or code for research, please cite our paper:
 ```
-@InProceedings{Wang_2024_CVPR,
+@InProceedings{wang2024lmot,
     author    = {Wang, Xinzhe and Ma, Kang and Liu, Qiankun and Zou, Yunhao and Fu, Ying},
     title     = {Multi-Object Tracking in the Dark},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
     year      = {2024},
     pages     = {382-392}
 }
