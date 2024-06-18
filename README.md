@@ -129,7 +129,7 @@ Organize the files into the following structure.
 LMOT dataset is organized in the form of [MOT Challenge 17](https://motchallenge.net). Each line in gt.txt contains
 
 ```
-fn, id, classid, x1, y1, w, h, c=-1, c=-1, vis_ratio, c=-1
+fn, id, x1, y1, w, h, ignore, classid, vis_ratio
 ```
 
 The 6 categories of annotated objects include
